@@ -1,0 +1,240 @@
+#rent{
+    // width: 100%;
+    // height: 700px;
+    margin-top: 20;
+    margin-top: 29px;
+}
+    .container{
+        // background: #fff;
+        .row{
+            .col-lg-7{
+                .rent-img{
+                    width: 100%;
+                   height: 100%;
+                    img{
+                        object-fit: cover;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .col-lg-5{
+                .text{
+                    h2{
+                        font-family: 'Calibri';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 38px;
+                        line-height: 59px;
+                        color: #151516;
+
+                    }
+                    p{
+                        font-family: 'Calibri';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #000000;
+                    }
+
+                    a{
+                        font-family: 'Calibri';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 29px;
+                        color: #151516;
+                        text-decoration: none;
+                        
+                    }
+                    h3{
+                        font-family: 'Calibri';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 29px;
+                        color: #151516;
+                        padding: 35px 0px;
+                    }
+                    .txt-1{
+                        div{
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 50%;
+                            display: inline-block;
+                            background: #CD3B31;
+                        }
+                        
+                        
+                        span{
+                            font-family: 'Calibri';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 17px;
+                            color: #151516;
+                            padding: 0px 10px;
+                        }
+                    }
+
+                    .store{
+                        font-family: 'Calibri';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #000000;
+                        padding: 10px 0px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    #swipe_items{
+        // width: 100%;
+        // height: 300px;
+     
+        .container{
+        
+            .row{
+                .col-lg-3{
+                .swiper{
+                    // width: 1000px;
+                    // height: 100%;
+                    .swiper-wrapper{
+                        .swiper-slide{
+                            text-align: center;
+                            justify-content: center;
+                            font-size: 18px;
+                            // background-color: aliceblue;
+                            display: flex;
+                            
+
+                            img{
+                                width: 306px;
+                                height: 153px;
+                                object-fit: cover;
+
+                            }
+                        }
+                    }
+                }
+
+                .swiper-button-next, .swiper-rtl, .swiper-button-prev{
+                    right: 140px !important;
+                    left: auto;
+                }
+
+                .swiper-button-prev, .swiper-rtl, .swiper-button-next{
+                    left: 140px !important;
+                    right: auto;
+                }
+                }
+
+                .text_items{
+                    h1{
+                        font-family: "Calibri";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 38px;
+                        line-height: 59px;
+                        color: #151516;
+                    }
+                }
+            .col-lg-6{
+                margin: 0 auto;
+                .txt-1{
+                    div{
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        display: inline-block;
+                        background: #CD3B31;
+                    }
+            }
+            }
+        }
+    }
+    }
+
+
+    #cards{
+        padding: 50px;
+
+      .container{
+        .row{
+            .col-lg-2{
+                .card_text{
+                    // padding-top: 163px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 7.5px;
+                    p{
+                        font-family: 'Calibri';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #6B7073;
+                    }
+                   span{
+                    font-family: 'Calibri';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 44px;
+                    color: #151516;
+                   }
+                }
+            }
+
+            .col-lg-5{
+            .allImg{
+                .card_img{
+                    // padding-top: 41%;
+                    // padding: 0px 50px;
+                    // display: flex;
+                    // gap: 20px;
+                    img{
+                        object-fit: cover;
+                        width: 100%;
+                        height: 100%;
+                       
+                        }
+                        .sarafan{
+                            object-fit: cover;
+                            width: 100%;
+                            height: 477px;
+                        }
+                    }
+            }
+                }
+            }
+        }
+      }
+
+      #photos{
+        // height: 320px;
+        padding: 20px 0px;
+        .container{
+            .row{
+            .sarafan{
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+
+            }
+        }
+      }
+
+
+
+   
